@@ -59,7 +59,7 @@ $Amazon->searchEngineName="Amazon";
 $Amazon->q = $qry;
 $Amazon->maxcount = "20";
 $Amazon->start = "page";
-$Amazon->searchEnginelink="http://www.amazon.com/s?ie=UTF8&field-keywords=mysql";
+$Amazon->searchEnginelink="http://www.amazon.com/s?ie=UTF8&field-keywords=";
 $Amazon->linkDomId="div.imageBox";
 echo $Amazon->SimpleCrawler();
 
